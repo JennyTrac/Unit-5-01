@@ -1,0 +1,89 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {540, 540}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "Generate 10 random numbers",
+          "name" : "generate_button",
+          "action" : "generate_touch_up_inside",
+          "class" : "Button",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "uuid" : "A27A42C4-461F-473E-9644-D33EDADBDBF6"
+        },
+        "frame" : "{{43, 40}, {217, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "Calculate average",
+          "name" : "average_button",
+          "action" : "calculate_average_touch_up_inside",
+          "class" : "Button",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "uuid" : "18E52ED1-663A-48FD-B302-4358D05DC734"
+        },
+        "frame" : "{{356, 40}, {134, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "average_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "39608696-E211-49E9-BBAE-0BF14F70AB17"
+        },
+        "frame" : "{{91, 213}, {417, 32}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextView",
+        "attributes" : {
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "flex" : "WH",
+          "autocorrection_type" : "default",
+          "name" : "randomnumbers_textview",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "alignment" : "left",
+          "frame" : "{{170, 170}, {200, 200}}",
+          "editable" : true,
+          "uuid" : "BBDF8BD5-C197-4F41-AB18-5C65A9C51BB0"
+        },
+        "frame" : "{{32, 99}, {51, 255}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
